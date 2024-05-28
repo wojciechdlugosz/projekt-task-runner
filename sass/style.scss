@@ -151,6 +151,7 @@ section h5 {
 .services {
     background-color: white;
     text-align: center;
+
 }
 
 .services i {
@@ -231,4 +232,53 @@ footer p {
 
 .social-media i {
     transition: all 1s;
+}
+
+@media (max-width: 767px) {
+
+    header, section, footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    section {
+        padding: 50px 0 60px 0;
+    }
+
+    .services {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navigation ul li {
+        margin-right: 15px;
+    }
+
+    .navigation ul li a {
+        font-size: 14px;
+    }
+
+    .page-title {  
+        font-size: 50px;
+    }
+    
+    .page-subtitle {
+        font-size: 25px;
+    }
+
+    .card-description {
+        width: 100%;
+        max-width: 290px;
+        margin: 0 auto;
+        margin-top: -8px;
+    }
+
+    footer p {
+        position: static;
+    }
+
+    footer {
+        height: 160px;
+    }
+
 }
