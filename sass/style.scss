@@ -54,6 +54,14 @@ section h4 {
     margin: 0;
 }
 
+section h5 {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
 /* Home */
 
 .home {
@@ -152,4 +160,27 @@ section h4 {
     border: 4px solid #fdd135;
     padding: 15px;
     margin: 15px;
+}
+
+/* Our Portfolio */
+
+.portfolio {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.card-image {
+    margin: 0;
+    padding: 0;
+}
+
+.card-image img {
+    width: 290px;
+    height: 300px;
+}
+
+.card-description {
+    background-color: #fff;
+    padding: 10px;
+    margin: -8px 0 0 0;
 }
