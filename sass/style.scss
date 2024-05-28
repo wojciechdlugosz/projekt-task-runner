@@ -1,0 +1,110 @@
+/* Global */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #2c2c54;
+  background-color: black;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* Home */
+
+.home {
+    height: 700px;
+    position: relative;
+    background-image: url('../images/home-golden.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.home-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.page-title, .page-subtitle {
+    color: #fff;
+    margin: 38px 0 0 0;
+    padding: 0;
+}
+
+.page-title {  
+    font-size: 70px;
+    position: relative;
+}
+
+.page-subtitle {
+    font-family: "PT Serif", serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.button {
+    margin: 50px 0 0 0;
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #fdd135;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Navigation */
+
+.navigation {
+    background: none; 
+    padding: 50px 0 0 0;
+}
+
+.logo {
+    float:left;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+}
+
+.navigation ul li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+.navigation ul li:last-of-type {
+    margin-right: 0;
+}
+
+.navigation ul li a {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.navigation ul li a:hover {
+    color: #fdd135;
+}
